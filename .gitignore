@@ -4,6 +4,11 @@ out/
 next-env.d.ts
 tsconfig.tsbuildinfo
 
+# local environment files and secrets
+.env
+.env.*
+!.env.example
+
 # phase execution outputs
 phases/**/phase*-output.json
 phases/**/step*-output.json
